@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body {
+    background-image: url(photo/dog.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #333333;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+}
+
+dl {
+    font-size: 30px;
+    display: table;
+    margin: auto;
+}
+
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+.container {
+    display: flex;
+}
+
+#about {
+    width: 700px;
+    margin: 30px auto;
+    background-color: #ffffff9a;
+    border-radius: 20px 20px 20px 20px;
+    font-family: Microsoft JhengHei;
+    font-weight: 800;
+    padding: 10px 10px 70px;
+}
+
+#left-div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    left: 1%;
+    width: 400px;
+    background-color: #ffffff9a;
+    border-radius: 20px 20px 20px 20px;
+}
